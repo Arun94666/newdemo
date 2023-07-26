@@ -4,7 +4,7 @@ import java.util.List;
 
 
 public interface LocatorsRepo {
-	// HomePage 
+	String  HomePage = " " ;
 	String SignIn = "//*[text()='Sign in']";
 	String emailBox = "//*[@placeholder='Enter your email']";
 	String passwordBox = "//*[@placeholder='Password']";
